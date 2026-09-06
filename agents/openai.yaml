@@ -1,0 +1,6 @@
+interface:
+  display_name: "Presentation Images Madoglio"
+  short_description: "Converte apresentações em imagens personalizadas"
+  default_prompt: "Use $presentation-images-madoglio para converter minha apresentação em imagens individuais e personalizadas."
+policy:
+  allow_implicit_invocation: true
