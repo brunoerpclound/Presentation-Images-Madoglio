@@ -53,11 +53,15 @@ Se for inevitável gerar texto dentro da imagem, confronte-o visualmente com o t
 
 Use o arquivo original em vez de pedir ao modelo para recriá-lo. Preserve proporção, cores e área de proteção. Garanta contraste; se necessário, use somente um fundo discreto ou uma variante oficial fornecida pelo usuário. Não invente uma versão monocromática ou altere a marca sem autorização.
 
+Quando a decisão for aplicar uma logo na série, trate-a como configuração global: aplique o mesmo arquivo, posição e escala em todas as imagens finais, inclusive a capa, salvo exceção explícita. Não presuma que uma logo já integrada à capa atende esse requisito. Evite duplicidade removendo a marca antiga da arte-base ou padronizando-a com o arquivo fornecido.
+
 ## 6. Texto e layout
 
 “Mesma posição” significa preservar âncora, alinhamento, ordem e hierarquia, admitindo apenas ajustes mínimos para caber na nova proporção. “Topo”, “centro” e “parte inferior” indicam a zona principal do bloco textual, não alinhamento rígido de todos os elementos.
 
 Ao alterar tamanho, mantenha contraste, entrelinha, margens seguras e hierarquia entre título, subtítulo e corpo. Não aplique um único tamanho a todo o texto.
+
+Quando o pedido exigir texto diretamente no fundo, não acrescente cards, retângulos, faixas ou caixas decorativas. Escolha uma zona de leitura com menor contraste e preserve o fundo visível; use uma sombra ou contorno discreto apenas para recuperar legibilidade, sem criar aparência de painel.
 
 ## 7. Revisão obrigatória
 
@@ -67,7 +71,9 @@ Compare cada saída com a unidade original e verifique:
 - dimensões e orientação;
 - textos completos e sem erros;
 - números, datas, nomes e URLs;
-- logo correta, nítida e consistente;
+- logo correta, nítida, consistente e aplicada em toda a série quando essa foi a escolha;
+- ausência de logo duplicada na capa;
+- se o pedido for texto direto no background, ausência de cards, faixas e painéis atrás do texto;
 - ausência de cortes e sobreposições;
 - estilo coerente entre todas as imagens;
 - imagens sem artefatos ou conteúdo inadequado.
