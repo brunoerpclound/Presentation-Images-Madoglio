@@ -19,7 +19,10 @@ Faça perguntas curtas e com opções selecionáveis quando a interface permitir
 
 1. Pergunte o formato final: `16:9`, `9:16` ou `1:1`.
 2. Pergunte se deve aplicar uma logo.
-   - Se sim, solicite o arquivo da logo, uma URL pública direta ou um link acessível do Google Drive. Aceite PNG/SVG com transparência como preferência; peça posição e tamanho apenas se não puder inferi-los com segurança.
+   - Esta escolha nunca pode ser omitida. Registre explicitamente `Logo: não` ou `Logo: sim`, mesmo quando a conversa também envolve capa, troca de fundo ou reposicionamento de texto.
+   - Se sim, solicite o arquivo da logo, uma URL pública direta ou um link acessível do Google Drive. Aceite PNG/SVG com transparência como preferência.
+   - Confirme o escopo: por padrão, uma logo aprovada deve ser aplicada a **todas as imagens finais**, inclusive capa, salvo pedido de aplicação apenas em slides específicos. Uma logo já presente na arte de capa não substitui essa confirmação.
+   - Peça posição e tamanho apenas se não puder inferi-los com segurança. Se a única instrução for aplicar a logo em todos os slides, prefira canto inferior direito, tamanho discreto e área de proteção coerente; registre essa inferência no resumo.
    - Se não, prossiga.
 3. Pergunte se deve trocar as imagens de fundo.
    - Se sim, peça uma descrição do estilo, assunto, cores e restrições. Quando útil, ofereça manter uma direção visual única em toda a série.
@@ -45,7 +48,9 @@ Faça perguntas curtas e com opções selecionáveis quando a interface permitir
 
 Registre as duas escolhas e aplique a combinação a todos os slides, preservando a hierarquia entre título, subtítulo e corpo. Se o usuário escolher `Igual ao original` e `Posição original`, trate como preservação integral do layout textual.
 
-Antes de iniciar, apresente um resumo compacto das escolhas. Não peça nova confirmação se todas as respostas forem inequívocas e a execução não exigir ação externa sensível.
+Componha o texto sem painéis ou cards. Posicione-o em uma área de respiro visual, afastada de elementos de alto contraste, e use apenas contorno ou sombra sutil se for indispensável à leitura.
+
+Antes de iniciar, apresente um resumo compacto das escolhas, incluindo: formato, fonte de fundo, texto (tamanho e posição) e `logo: sim/não`, com escopo, posição e tamanho quando aplicável. Não peça nova confirmação se todas as respostas forem inequívocas e a execução não exigir ação externa sensível.
 
 ## Escolha do modo
 
@@ -60,6 +65,7 @@ Para instruções completas de composição, tratamento por formato e controle d
 - Nunca invente conteúdo ausente nem redesenhe uma marca com IA quando o arquivo original da logo estiver disponível.
 - Não distorça ou corte conteúdo importante ao adaptar a proporção. Prefira recomposição, expansão de fundo ou margens coerentes.
 - Trate cada slide como parte da mesma identidade visual; mantenha paleta, tipografia, margens e estilo consistentes.
+- Quando uma logo é aprovada para toda a série, use o arquivo original em cada imagem final e remova ou cubra com cuidado uma marca anterior na capa se ela causar duplicidade ou inconsistência.
 - Não exponha imagens de referência ou ativos privados em serviços externos sem autorização e sem que o ambiente permita.
 - Se a legibilidade entrar em conflito com a posição escolhida, preserve o conteúdo e faça o menor ajuste necessário, explicando-o na entrega.
 
